@@ -15,7 +15,6 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,16 +22,40 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.card-wrapper{
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  width: 900px;
+  height: 280px;
 
-.App-link {
-  color: #61dafb;
+}
+h3{
+  text-align: left;
+  margin: 0px;
+  padding-left: 15px;
+}
+.info p{
+  padding-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+  margin-left: 0;
+}
+.follower-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+.followers {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.followers p {
+  margin-top: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
